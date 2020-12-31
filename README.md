@@ -17,5 +17,6 @@ mvn clean package -Dnative -Dquarkus.native.container-build=true -Dquarkus.nativ
 
 Endpoint invocation:
 ```
-curl http://localhost:8080/hello
+curl -vvv http://localhost:8080/hello
+curl -vvv http://localhost:8080/png
 ```
